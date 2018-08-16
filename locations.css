@@ -1,0 +1,61 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#header{
+ text-align:center; 
+}
+
+#places{
+ text-align:center; 
+}
+
+p{
+ text-align:center;  
+}
+
+body{
+  background:url("https://cdn.glitch.com/7e43be1a-e5bb-4327-a1e3-eb3f5930be57%2FBeFunky-collage%20(1).jpg?1534182956118");
+  background-size:cover;
+}
+
+#text-over-bkgrnd { 
+  width:70%;  
+  height:75%;
+  background-color:white;
+  margin-left:200px;
+  border-radius: 25px;
+  padding: 30px;
+  margin-top:40px;
+}  
+
+h1{
+  color:rgb(130, 36, 36); 
+  font-family: 'Lobster', cursive;  
+  
+}
+.line{ 
+  display:inline-block;
+}
+#small{ 
+  height:50px; 
+  width:50px;
+  margin-left:10px; 
+} 
+
+#whatever{ 
+  margin-left:400px;
+}

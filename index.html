@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+   <link rel="stylesheet" href="index.css"> 
+   <link href="htbtps://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Lobster|Paytone+One" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+   <script src="script.js" defer></script>
+  </head>  
+  <body>
+    
+  <div id = "indexBack">
+  </div>
+    
+<div class="navbar">
+  <a href="index.html" id="h">Home</a>
+  <a href="about.html">About The Process</a>
+  <a href="studyPage.html">Study Page</a>
+  <a href="locations.html">Locations</a>
+  <a href="news.html">News</a>
+  
+  <div class="dropdown">
+    
+      <i class="fa fa-caret-down"></i>
+    <div class="dropdown-content">
+      <a href=>Study Guide 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+      <div class="dropdown">
+        <a id = "location" href = "locations.html">
+            <i class="fa fa-caret-down"></i>
+        </a>
+  </div> 
+   <div class="dropdown">
+      <i class="fa fa-caret-down"></i>
+    
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>   
+     <div class="login-container">
+    <form action="studyPage.html">
+      <input type="text" placeholder="Username" name="username">
+      <input type="text" placeholder="Password" name="psw">
+      <button id = "loginb" type="submit">Login</button>
+    </form>
+  </div>
+</div>    
+    <h1></h1>
+  
+<div id = "login">
+  <form action="studyPage.html" style="border:1px solid #ccc">
+  <div class="container">
+    <h1 id ="title">ImmigrAid</h1>
+    <img src = "https://cdn.glitch.com/7e43be1a-e5bb-4327-a1e3-eb3f5930be57%2Fdownload%20(2).jpg?1534346196409"/>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label id="emailText" for="Name"><b>Name</b></label>
+    <input type="text" placeholder="Full Name" name="Name" required>
+
+    <label id="email" for="psw"><b>Email</b></label>
+    <input type="password" placeholder="Enter Email" name="psw" required>
+
+    <label id = "passW" for="psw-repeat"><b> Password</b></label>
+    <input type="Password" placeholder="Password" name= "psw-repeat" required>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn" id = "signUp" >Sign Up</button>
+    </div>
+  </div> 
+    
+</form>
+    </div>
+ <div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  </body>
+</html>
